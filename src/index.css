@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #326295;
+  --color-secondary: #1e293b;
+  --color-accent: #326295;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 font-sans;
+}
+
+.glass-gradient {
+  background: linear-gradient(135deg, rgba(50, 98, 149, 0.9) 0%, rgba(30, 41, 59, 0.8) 100%);
+}
+
+.card-shadow {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.tab-active {
+  @apply border-b-2 border-accent text-accent font-bold;
+}
